@@ -360,27 +360,6 @@ export const MVPBD = {
         imagem:"https://imgcentauro-a.akamaihd.net/900x900/9707872Y/tenis-fila-racer-t2-masculino-img.jpg",
         categoria:"tenis"
       },
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      // ----- BACKUP ----- //
         {
         id:41,
          ref: "94313731",
@@ -726,7 +705,97 @@ export const MVPBD = {
          precoOriginal: 649.99,
          imagem:"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/537/086/products/1671-3a98bd904b1ffe02cd16120221210090-640-0.jpg",
          categoria:"camisa"
-      }
+      },
+      {
+        id: 79,
+         ref:"12020067",
+         nome:"Short Feminino Esportivo Ace Running Preto",
+         preco: 35.99,
+         precoOriginal: 50.00,
+         imagem:"https://cea.vtexassets.com/arquivos/ids/12020067-1600-auto?v=637701786072070000&width=1600&height=auto&aspect=true",
+         categoria:"calca"
+      },
+      {
+      id: 80,
+         ref:"3320",
+         nome:"Short 2 em 1 Gonew BT Line Masculino",
+         preco: 49.99,
+         precoOriginal: 70.00,
+         imagem:"https://a-static.mlcdn.com.br/800x560/short-2-em-1-gonew-bt-line-masculino/netshoes/c62-3320-879-03/bd237c96f2f55534e76a15750e53194d.jpeg",
+         categoria:"calca"
+      },
+      {
+      id: 81,
+         ref:"51bhnCg5ObS",
+         nome:"Calça De Moletom Masculina Saruel Skinny Sport Luxo ",
+         preco: 59.99,
+         precoOriginal: 70.00,
+         imagem:"https://m.media-amazon.com/images/I/51bhnCg5ObS._AC_SY500_.jpg",
+         categoria:"calca"
+      },
+      {
+      id: 82,
+         ref:"37081611",
+         nome:"Bermuda adidas Performance Reta 3s Preta",
+         preco: 129.99,
+         precoOriginal: 140.00,
+         imagem:"https://t-static.dafiti.com.br/qHeOSfo05Fd7WxQDh6tLrIrCmlk=/fit-in/430x623/static.dafiti.com.br/p/adidas-performance-bermuda-adidas-performance-reta-3s-preta-0450-37081611-1-zoom.jpg",
+         categoria:"calca"
+      },
+      {
+      id: 83,
+         ref:"95749505",
+         nome:"Calça Puma Active Tricot Pants CL - Masculina",
+         preco:129.99,
+         precoOriginal: 140.00,
+         imagem:"https://imgcentauro-a.akamaihd.net/900x900/95749505/calca-puma-active-tricot-pants-cl-masculina-img.jpg",
+         categoria:"calca"
+      },
+      {
+      id: 84,
+         ref:"138425783",
+         nome:"adidas Calças Entrada 22",
+         preco: 95.99,
+         precoOriginal: 120.00,
+         imagem:"https://www.tradeinn.com/f/13842/138425783/adidas-calcas-entrada-22.jpg",
+         categoria:"calca"
+      },
+      {
+      id: 85,
+         ref:"4669-036",
+         nome:"Conjunto Adidas Athletics Tiro Jaqueta + Calça Masculino",
+         preco: 196.00,
+         precoOriginal: 250.00,
+         imagem:"https://static.netshoes.com.br/produtos/conjunto-adidas-athletics-tiro-jaqueta-calca-masculino/36/NQQ-4669-036/NQQ-4669-036_zoom1.jpg?ts=1646746225",
+         categoria:"conjunto"
+      },
+      {
+        id: 86,
+           ref:"AC_SY500",
+           nome:"Combo Conjunto Moletom + Tenis Masculino Esportivo ",
+           preco: 199.00,
+           precoOriginal: 250.00,
+           imagem:"https://m.media-amazon.com/images/I/51Lv-I8InbL._AC_SY500_.jpg",
+           categoria:"conjunto"
+        },
+        {
+          id: 87,
+             ref:"HTB1cyqpX3aH3",
+             nome:"Conjunto esportivo feminino com manga curta",
+             preco: 104.99,
+             precoOriginal: 230.00,
+             imagem:"https://ae01.alicdn.com/kf/HTB1cyqpX3aH3KVjSZFpq6zhKpXao/Conjunto-esportivo-feminino-sem-costura-roupa-esportiva-de-gin-stica-com-manga-curta-e-levantamento-cal.jpg_Q90.jpg_.webp",
+             categoria:"conjunto"
+          },
+          {
+            id: 88,
+               ref:"165963608",
+               nome:"Agasalho Adidas Teamsports Feminino",
+               preco: 450.00,
+               precoOriginal: 500.00,
+               imagem:"https://static.netshoes.com.br/produtos/agasalho-adidas-teamsports-feminino/08/3ZP-5175-008/3ZP-5175-008_zoom1.jpg?ts=1659636088&?ims=544xhttps://static.netshoes.com.br/produtos/agasalho-adidas-teamsports-feminino/08/3ZP-5175-008/3ZP-5175-008_zoom1.jpg?ts=1659636088&?ims=1088x",
+               categoria:"conjunto"
+            },
    ],
    
 

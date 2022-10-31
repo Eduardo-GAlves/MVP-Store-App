@@ -1,5 +1,6 @@
 .cardLink{
   margin-top: 10px;
+  height: 500px;
 }
 
 .cardProduto {
@@ -9,20 +10,19 @@
   border-radius: 16px;
   width: 280px;
   flex: none;
-
   display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .cardProduto .image img{
-width: 100%;
-height: 100%;
-object-fit: cover; 
+  width: 100%;
+  height: 250px;
+  object-fit: cover; 
 }
  
 .cardProduto .info{
-  height: 140px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -40,6 +40,7 @@ object-fit: cover;
    font-size: 1.2rem;
    font-weight: bold;
    margin: 10px 0;
+   height: 80px;
  }
  
  .cardProduto .info .oldPrice {

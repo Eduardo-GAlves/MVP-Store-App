@@ -2,13 +2,15 @@
 import InputSearch from '../InputSearch/InputSearch'
 import CardProduto from '../CardProduto/CardProduto';
 import '../pages/Catalogo.css'
+import { MVPBD } from '../../data/MVPBD';
 
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 function Catalogo(){
 
-    const[ produto, setProduto] = useState([])
+  /* Pegar dados do backend
+  const[ produto, setProduto] = useState([])
 
   useEffect(() => {
     axios.get("http://localhost/produtos")
@@ -20,25 +22,10 @@ function Catalogo(){
       console.log("Deu errado")
     })
   }, [])
+  */
 
-  // DEV informou que fez esse trecho para acessar a lista de produtos 
-    const data = produto
-  // let data = MVPBD.produtos
-  
-  //Alterar para ficar mais dinâmico 
-  // let dataUrl = 'http://localhost:3000/static/shoes.json';
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     try {
-  //       const response = await fetch(dataUrl)
-  //       const data = await response.json()
-  //       setData(data)
-  //     } catch (error) {
-  //       console.log('error', error)
-  //     }
-  //   }
-  //       fetchData()
-  //   }, [dataUrl])
+    //const data = produto Para pegar doo backend
+    const data = MVPBD.produtos
 
     return (
         <div className='catalogo'>
