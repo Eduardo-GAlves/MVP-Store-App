@@ -1,7 +1,7 @@
 # Repositório da última etapa do HACKADEV
 
 ### Link no Netlify ###
-<a href="https://mvp-sports.netlify.app/">MVP Store v2</a>
+<a href="https://mvp-sports-app.netlify.app/">MVP Store</a>
 
 Projeto de e-commerce elaborado para o programa GoDev da IMÃ Learning Place, durante o desafio HACKADEV.
 
