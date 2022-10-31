@@ -1,0 +1,26 @@
+.boxBotton {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+    padding-left: 8px;
+    display: inline-block;
+ }
+ 
+ .logoGoogle, .logoFacebook, .logoApple {
+    
+    width: 90px;
+    height: 60px;
+    border: #c9c9c9 solid 1px;
+    border-radius: 3px;
+    font-size: 30px;
+    text-align: center;   
+ }
+  
+ .logoGoogle:hover, .logoFacebook:hover, .logoApple:hover {
+    cursor: pointer;
+    box-shadow: 0 0 11px #c9c9c9;
+ }
+ 
+ .icones {
+    text-decoration: none;
+ }

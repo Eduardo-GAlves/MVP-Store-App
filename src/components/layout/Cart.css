@@ -1,0 +1,108 @@
+.menuCart {
+   padding-top: 15px;
+   width: 50px;
+   background-color: #222;
+   
+}
+
+.menuCart svg{
+   width: 50px;
+   height: 33px;
+   border-radius: 3px;
+   padding: 2px;
+   cursor: pointer;
+   color: #efefef;
+   background-color: #D15A09;
+   
+}
+
+.checkbtn_cart {
+   font-size: 30px;
+   color: var(--second-color-variant);
+   line-height: 80px;
+   cursor: pointer;
+   display: none;
+}
+
+.check_cart{
+   display: none;
+}
+
+.check_cart:checked ~ .itens_cart {
+   left: 50%;
+}	
+
+.checkbtn_cart {
+   display: block;
+}
+
+/* itens do carrinho */
+
+.itens_cart>*{
+   margin: 5px 0;
+}
+.itens_cart{
+   position: fixed;
+   width: 50%;
+   height: calc(100vh - 100px);
+      background: #222222;
+   top: 100px;
+   left: 100%;
+   text-align: center;
+   transition: all .5s;
+   overflow:scroll;
+}
+
+.itens_cart .titulo_cart{
+   font-size: 20px;
+   color: #efefef;
+   font-weight: bolder;
+   text-align: center;
+   padding-bottom: 20px;
+   /* padding-top: 30px; */
+   display: block;
+   margin: 5px 0;
+   line-height: 30px;
+}
+
+.itens_cart__total{
+   color: white;
+   font-weight: 500;
+   font-size: large;
+}
+
+.button_finalizarCompra{
+   background-color: #D15A09;
+  width: 200px;
+  padding: 5px 20px;
+  color: #efefef;
+  font-weight: bold;
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-bottom: 30px;
+   padding-right: 20px;
+   cursor: pointer;
+   border: none;
+}
+@media (max-width: 991px){
+   .menuCart svg{
+       margin-left: 20px;
+       width: 50px;
+       height: 33px;
+       border-radius: 3px;
+       padding: 0;
+       cursor: pointer;
+       color: #D15A09;
+       background-color: #222222;
+       margin-left: 5px;
+   }
+   .menuCart .itens_cart{
+       left: 100%;
+   }
+
+   .check_cart:checked ~ .itens_cart {
+       left: 0;
+       width: 100%;
+   }
+       
+}

@@ -1,0 +1,39 @@
+.MvpModal{
+   width: 100vw;
+   height: 100vh;
+   /* position: absolute; */
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 2;
+   background-color: rgba( 0, 0, 0, 0.8);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.popup{
+   background-color: aliceblue;
+   width: 400px;
+   height: 250px;
+   display: flex;
+   flex-direction: column;
+   border-radius: 15px;
+   padding: 20px;
+}
+
+.popup__header {
+   display: flex;
+   justify-content: flex-end;
+  
+}
+.popup__close__button{
+   border: none;
+   display: flex;
+   position: relative;
+   align-items: center;
+   cursor: pointer;
+   font-size: 18px;
+   font-weight: bold;
+}

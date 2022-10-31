@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    font-family: 'Poppins', sans-serif;  
+}
+
+.containerCheckout {
+    background-color: #efefef;
+    padding-top: 10px;
+}
+
+.containerEndereço, .containerPagamento, .containerConfirmaçao, .finalizarCompra  {
+    border: solid 1px  #c9c9c9;
+    margin: 20px;
+    background-color: #fff ;
+    padding-bottom: 10px;
+    padding: 20px;
+    
+}
+
+.tituloPadrao {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.boxEndereço {
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+/******** PAGAMENTO ********/
+
+.textoPagamento {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.imagemCartao {
+    text-align: center;
+    border: #c9c9c9 solid 1px;
+    border-radius: 5px;
+    box-shadow: 0 0 11px #c9c9c9; 
+}
+
+.exemploCartao {
+    text-align: center;
+    margin: 15px
+}
+
+.textoInformativo  {
+    font-size: 12px;
+    color:#555;
+}
+
+.icone {
+    font-size: 22px;
+    color:#555;
+}
+
+.containerLista {
+    list-style-type: none;
+}
+
+.tituloCartao, .dadosCartao, .descriçaoProduto {
+    font-size: 15px;
+   
+}
+
+.containerLista  {
+    padding-bottom: 8px;
+}
+
+.containerLista .dadosCartao, .containerLista .parcelamento, .containerLista .addEndereço {
+    width: 100%;
+    height: 30px;
+}
+
+.parcelamento {
+    
+    margin-bottom: 10px;
+}
+
+
+.boletoBancario {
+    border-top: solid 1px  #c9c9c9;
+    border-bottom:solid 1px  #c9c9c9 ;
+    padding-left:15px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    
+}
+
+.pagamentoPix {
+    display: center;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+/******** INFORMAÇÕES PRODUTO ********/
+
+.imagemProduto {
+    width: 10%;
+    height: 10%;
+}
+
+.imagemProduto, .organizacaoProduto {
+    display: inline-block;
+}
+
+.tituloProduto {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.preço {
+    color: rgb(155, 56, 56);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.cupom {
+    
+    padding-top: 10px;
+}
+
+ .cupomDesconto {
+    font-weight: bold;
+    font-size: 15px;
+    width: 20%;
+
+
+}
+
+/******** ENVIO ********/
+
+.envio {
+    margin-top: 15px;
+    
+    margin-bottom: 10px;
+    background-color: #c9c9c9;
+    padding-bottom: 8px;
+    width: 100%;
+
+}
+
+.textoEnvio {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+
+.boxEnvio {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+#boxPadrao {
+    padding: 20px;
+}
+
+/******** FINALIZAR COMPRAS ********/
+
+.pedido {
+    background-color: #efefef;
+    width: 100%;
+    
+}
+
+.descriçaoPedido, .totalPedido {
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.totalPedido {
+   background-color: #c9c9c9;
+}
+
+.botaoCompras {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: #dd0238;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    width: 100%;
+    height: 40px;
+    
+    text-align: center; 
+}
+
+.botaoCompras:hover {
+    cursor: pointer;
+    background-color: #000;
+    transition: .5s ;
+}
+
+
+
+
+@media (min-width:991px) {
+
+
+    .containerEndereço {
+        width: 450px    ;
+        flex: 0.6 0.8;
+        border-right: solid 1px #c9c9c9;
+    }
+
+    .containerPagamento {
+        margin-left: 8px;
+        margin-right: 8px;
+        flex: 0.4 5 ;
+        border-right: solid 1px #c9c9c9;
+    }
+
+    .containerFinal {
+        
+        flex: 1.1 0.8 10% ;
+    }
+
+    .containerCheckout {
+        display: grid;
+        grid-template-areas: 
+        "1 2 3";
+    }
+    
+}

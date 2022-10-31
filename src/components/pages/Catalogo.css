@@ -1,0 +1,12 @@
+.catalogo {
+   max-width: 100vw;
+ 
+ }
+
+ .catalogo__produtos{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   overflow-x: auto;
+   scroll-behavior: smooth;
+ }

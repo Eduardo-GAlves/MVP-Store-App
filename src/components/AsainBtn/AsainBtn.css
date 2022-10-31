@@ -1,0 +1,29 @@
+.produto_opcoes *{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 100%;
+	height: 40px;
+	border: none;
+	background-color: var(--main-color) !important;
+   width: 100%;
+	margin: 10px 0;
+	padding: 5px;
+	color: aliceblue;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+/* Padrão de botão  anchor*/
+.button-hckdv button{
+	width: 100%;
+   background: var(--main-color) !important;
+	color: white !important;
+}
+
+.button-hckdv button:hover{
+   background: var(--second-color) !important;
+	color: white !important;
+	cursor: pointer;
+
+}
